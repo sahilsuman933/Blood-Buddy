@@ -1,0 +1,20 @@
+.form-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: var(--color-container);
+}
+
+.form-container select,
+.form-container input {
+  padding: 5px;
+}
+.form-container button {
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: #e63946;
+  color: #f9fdf8;
+  cursor: pointer;
+}

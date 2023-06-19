@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 200px;
+  flex-grow: 2;
+}
